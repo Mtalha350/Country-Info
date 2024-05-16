@@ -11,9 +11,9 @@ body {
 
 .container {
   background-color: #fff;
-  width: 90vw; /* Increased for better mobile view */
+  width: 90vw;
   max-width: 37.5em;
-  padding: 2em 1.5em; /* Adjusted for better mobile view */
+  padding: 2em 1.5em;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -24,7 +24,7 @@ body {
 .search {
   display: grid;
   grid-template-columns: 9fr 3fr;
-  gap: 1em; /* Adjusted for better spacing on mobile */
+  gap: 1em;
 }
 
 .search button {
@@ -50,15 +50,15 @@ body {
 }
 
 #result {
-  margin-top: 1em; /* Adjusted for better spacing on mobile */
+  margin-top: 1em; 
 }
 
 .container .flag-img {
   display: block;
   width: 50%;
-  max-width: 150px; /* You can adjust this as needed */
+  max-width: 150px; 
   height: auto;
-  margin: 1.5rem auto 1rem auto; /* Adjusted for better spacing on mobile */
+  margin: 1.5rem auto 1rem auto; 
 }
 
 .container h2 {
@@ -67,7 +67,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 1.5em; /* Adjusted for better spacing on mobile */
+  margin-bottom: 1.5em; 
 }
 
 .data-wrapper {
@@ -100,39 +100,39 @@ footer {
 
 @media (max-width: 600px) {
   .container {
-    width: 90vw; /* Ensure container takes up most of the screen width */
-    padding: 2em 1.5em; /* Adjust padding for mobile */
+    width: 90vw; 
+    padding: 2em 1.5em; 
   }
 
   .search {
-    grid-template-columns: 1fr; /* Stack input and button vertically */
-    gap: 0.5em; /* Adjust gap for better spacing on mobile */
+    grid-template-columns: 1fr; 
+    gap: 0.5em; 
   }
 
   .search button {
     width: 100%;
-    margin-top: 0.5em; /* Add margin to separate from input */
+    margin-top: 0.5em; 
   }
 
   .container .flag-img {
-    width: 40%; /* Make flag image responsive */
-    max-width: none; /* Remove max-width to allow full scaling */
+    width: 40%;
+    max-width: none;
   }
 
   .container h2 {
-    font-size: 1.2em; /* Adjust font size for better readability on mobile */
+    font-size: 1.2em; 
   }
 
   .search input,
   .search button {
-    font-size: 1em; /* Ensure input and button text is readable */
+    font-size: 1em; 
   }
 
   .data-wrapper {
-    font-size: 0.9em; /* Adjust font size for better readability on mobile */
+    font-size: 0.9em; 
   }
 
   footer {
-    font-size: 0.8em; /* Adjust footer font size for mobile */
+    font-size: 0.8em;
   }
 }
